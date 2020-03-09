@@ -3,8 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="index.js"></script>
+
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <svg height="400" width="400">
+      <circle
+        r="190"
+        cx="200"
+        cy="200"
+        fill="transparent"
+        stroke="blue"
+        stroke-width="10"
+        stroke-dashoffset="0"
+        transform="rotate(-90 200 200)"
+      ></circle>
+    </svg>
+    <input type="text" id="duration" value="30" />
+    <button id="start">start</button>
+    <button id="pause">pause</button>
+
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
